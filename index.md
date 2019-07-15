@@ -31,4 +31,15 @@ Our logo was designed by Theo Pauwels. Check out more of his cool designs [here]
 [<img src="https://user-images.githubusercontent.com/30140104/60640251-3d726900-9df4-11e9-9439-dfdf5f983b0a.png" width="250">](https://shop.spreadshirt.com/Rockville-Merch/)
 
 ## Other Videos
-You can find them [here](../wiki/Other-Videos)
+You can find them here (link depracated)
+
+# ...
+
+## Here, you will find some of our other YouTube playlists.
+
+### 2019 GCER Vlogs, run by Ashlyn Casp:
+[[No Image Available]](https://www.youtube.com/channel/UCYa6onFUShS_wLuhEqmiDEg)
+
+
+### 2018 GCER Runs:
+[![2018 GCER run playlist](https://user-images.githubusercontent.com/32310846/60747868-6ca0eb80-9f56-11e9-937a-7da63e2f64b4.jpg)](https://www.youtube.com/playlist?list=PLFBMxG1YHu_eViSOG3yIg4HtCXumexXUV)
