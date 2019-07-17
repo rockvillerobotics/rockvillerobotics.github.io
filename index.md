@@ -36,4 +36,4 @@ Our code is written in Python 2 by Jaxon Lee, Lucas F., Tristan U., James Esperi
 
 Our logo was designed by Theo Pauwels. Check out more of his cool designs [here](https://shop.spreadshirt.com/Rockville-Merch/).
 
-<img src="theo_pauwels_designs.png" alt="Designs By Theo Pauwels" width="250">
+<img src="images/theo_pauwels_designs.png" alt="Designs By Theo Pauwels" width="250">
