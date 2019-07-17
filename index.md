@@ -4,7 +4,7 @@
 
 **Team 0333**
 
-[<img src="https://www.iconfinder.com/icons/1161953/download/svg/128" alt="IG Page" width="45">](https://www.instagram.com/incredibots0333/)&nbsp;&nbsp;[<img src="https://www.iconfinder.com/icons/111032/download/svg/128" alt="FB Page" width="44">](https://www.facebook.com/groups/1738912376374724/)
+[<img src="https://www.iconfinder.com/icons/1161953/download/png/128" alt="IG Page" width="45">](https://www.instagram.com/incredibots0333/)&nbsp;&nbsp;[<img src="https://www.iconfinder.com/icons/111032/download/png/128" alt="FB Page" width="44">](https://www.facebook.com/groups/1738912376374724/)
 
 ## [Our Code](https://github.com/RockvilleRobotics/Incredibots2019/)
 
@@ -20,6 +20,8 @@ Our code is written in Python 2 by Jaxon Lee, Lucas F., Tristan U., James Esperi
 
 ## YouTube Videos
 ### A playlist of our regionals run can be found here:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLFBMxG1YHu_ez_-1hpF9VHI4stWkStp_v" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 [![Regionals run playlist](https://user-images.githubusercontent.com/32310882/60310616-bddf2880-9921-11e9-9e77-8f0c854e1d0e.png)](https://www.youtube.com/playlist?list=PLFBMxG1YHu_ez_-1hpF9VHI4stWkStp_v)
 
