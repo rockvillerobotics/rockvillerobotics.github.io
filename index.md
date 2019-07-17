@@ -23,14 +23,18 @@ Our code is written in Python 2 by Jaxon Lee, Lucas F., Tristan U., James Esperi
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLFBMxG1YHu_ez_-1hpF9VHI4stWkStp_v" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
+## Robots
+[![Robots Together](https://user-images.githubusercontent.com/32310846/61262115-1c920800-a752-11e9-9166-1ca1b6bb837c.jpg)](https://github.com/rockvillerobotics/Incredibots2019)
+
+
 ## Builds
-### Roomba Build
-
-![Roomba](images/roomba_focus.jpg)
-
 ### Legobot Build
 
-![Legobot](images/legobot_focus.jpg)
+[![Legobot](images/legobot_focus.jpg)](https://github.com/rockvillerobotics/Incredibots2019/tree/master/Legobot)
+
+### Roomba Build
+
+[![Roomba](images/roomba_focus.jpg)](https://github.com/rockvillerobotics/Incredibots2019/tree/master/Roomba)
 
 ### Artist Credits
 
