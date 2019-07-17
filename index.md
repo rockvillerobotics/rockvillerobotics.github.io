@@ -23,8 +23,6 @@ Our code is written in Python 2 by Jaxon Lee, Lucas F., Tristan U., James Esperi
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLFBMxG1YHu_ez_-1hpF9VHI4stWkStp_v" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-[![Regionals run playlist](https://user-images.githubusercontent.com/32310882/60310616-bddf2880-9921-11e9-9e77-8f0c854e1d0e.png)](https://www.youtube.com/playlist?list=PLFBMxG1YHu_ez_-1hpF9VHI4stWkStp_v)
-
 ## Builds
 ### Roomba Build
 
