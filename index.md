@@ -12,14 +12,14 @@ We push to this GitHub repository very frequently. We utilize [Travis CI](https:
 
 ## About Us
 
-We are a public high school team from Rockville, Maryland in the Greater DC region. We got Third Place Overall in the Greater DC Regionals in 2019.
+We are a public high school team from Rockville, Maryland in the Greater DC region. We got Fifth Place Overall at the Global Conference for Educational Robotics (GCER) in 2019.
 
 ## Authors
 
 Our code is written in Python 2 by Jaxon Lee, Lucas F., Tristan U., James Espericueta, Jawad Hanif, Emmet G., Xavier Y., Oliver V., Mortimer S., Michael M., and Jesse Abinsay.
 
 ## YouTube Videos
-### A playlist of our regionals run can be found here:
+### A playlist of our GCER run can be found here:
 
 <iframe width="560" height="315" src="https://www.youtube.com/playlist?list=PLHr7k6PYIhe8yl8XwFye5FfPcTaZi4kAM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
