@@ -21,7 +21,7 @@ Our code is written in Python 2 by Jaxon Lee, Lucas F., Tristan U., James Esperi
 ## YouTube Videos
 ### A playlist of our GCER run can be found here:
 
-<iframe width="560" height="315" src="https://www.youtube.com/playlist?list=PLHr7k6PYIhe8yl8XwFye5FfPcTaZi4kAM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=wuFcmf_xbiI&list=PLHr7k6PYIhe8yl8XwFye5FfPcTaZi4kAM&index=3&t=1s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## Robots
 [![Robots Together](https://user-images.githubusercontent.com/32310846/61262115-1c920800-a752-11e9-9166-1ca1b6bb837c.jpg)](https://github.com/rockvillerobotics/Incredibots2019)
