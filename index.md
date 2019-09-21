@@ -16,7 +16,7 @@ We are a public high school team from Rockville, Maryland in the Greater DC regi
 
 ## Authors
 
-Our code is written in Python 2 by Jaxon Lee, Lucas F., Tristan U., James Espericueta, Jawad Hanif, Emmet G., Xavier Y., Oliver V., Mortimer S., Michael M., and Jesse Abinsay.
+Our code is written in Python 2 by Jaxon Lee, Lucas F., Tristan U., James Espericueta, Jawad Hanif, Emmet G., Xavier Y., Oliver V., Mortimer S., Michael M., Jesse Abinsay, and Axel Carmona.
 
 ## YouTube Videos
 ### A playlist of our GCER run can be found here:
