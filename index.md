@@ -4,8 +4,6 @@
 
 **Team 0333**
 
-[<img src="https://www.iconfinder.com/icons/1161953/download/png/128" alt="IG Page" width="45">](https://www.instagram.com/incredibots0333/)&nbsp;&nbsp;[<img src="https://www.iconfinder.com/icons/111032/download/png/128" alt="FB Page" width="44">](https://www.facebook.com/groups/1738912376374724/)
-
 ## [Our Code](https://github.com/RockvilleRobotics/Incredibots2019/)
 
 We push to this GitHub repository very frequently. We utilize [Travis CI](https://travis-ci.com/) for [continuous integration](https://en.wikipedia.org/wiki/Continuous_integration) to improve our code quality.
@@ -36,7 +34,11 @@ Our code is written in Python 2 by Jaxon Lee, Lucas F., Tristan U., James Esperi
 
 [![Roomba](images/roomba_focus.jpg)](https://github.com/rockvillerobotics/Incredibots2019/tree/master/Roomba)
 
-### Artist Credits
+## Sponsors
+
+**Thank you [NewWave Foundation](https://newwave-foundation.org) for supporting us!**
+
+## Artist Credits
 
 Our logo was designed by Theo Pauwels. Check out more of his cool designs [here](https://shop.spreadshirt.com/Rockville-Merch/).
 
