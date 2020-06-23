@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<!--Navigation bar-->
+<div id="nav-placeholder"></div>
+<script>
+$(function(){
+  $("#nav-placeholder").load("nav.html");
+});
+</script>
+<!--end of Navigation bar-->
+
+<script>
+// Add active class to the current button (highlight it)
+var header = document.getElementById("navbar");
+var btns = header.getElementsByClassName("button");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  if (current.length > 0) {
+    current[0].className = current[0].className.replace(" active", "");
+  }
+  this.className += " active";
+  });
+}
+</script>
+
+<html>
+	<h2 id="robots">Robots</h2>
+	<p><a href="https://github.com/rockvillerobotics/Incredibots2019"><img src="assets/images/legobot_and_roomba.jpg" alt="Robots Together" width="900"></a></p>
+
+	<h2 id="builds">Builds</h2>
+	<h3 id="legobot-build">Legobot Build</h3>
+	<p><a href="https://github.com/rockvillerobotics/Incredibots2019/tree/master/Legobot"><img src="assets/images/legobot_focus.jpg" alt="Legobot" width="900"></a></p>
+	<h3 id="roomba-build">Roomba Build</h3>
+	<p><a href="https://github.com/rockvillerobotics/Incredibots2019/tree/master/Roomba"><img src="assets/images/roomba_focus.jpg" alt="Roomba" width="600"></a></p>
+</html>

@@ -1,12 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="style.css">
-<link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
-<link rel="manifest" href="assets/images/site.webmanifest">
+	<meta charset="utf-8" />
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- Favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+	<link rel="manifest" href="assets/images/site.webmanifest">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- end Favicon -->
+
+	<!-- Bootstrap JS -->
+	<script src="/bootstrap/js/bootstrap.min.js"></script>
+	<!-- end -->
 </head>
+
+<!-- Navigation bar -->
+<div id="nav-placeholder"></div>
+<script>
+$(function(){
+  $("#nav-placeholder").load("nav.html");
+});
+</script>
+<!-- end of Navigation bar -->
 
 <logo>
 <p><img src="assets/images/club_logo.png" alt="Club Logo" width="300"></p>
@@ -16,27 +37,13 @@
 
 
 <body>
-	<h2 id="our-code"><a href="https://github.com/RockvilleRobotics/Incredibots2020/">Our Code</a></h2>
-	<p>We push to this GitHub repository very frequently. We utilize <a href="https://travis-ci.com/">Travis CI</a> for <a href="https://en.wikipedia.org/wiki/Continuous_integration">continuous integration</a> to improve our code quality.</p>
 	<h2 id="about-us">About Us</h2>
 	<p>We are a public high school team from Rockville, Maryland in the Greater DC region. We got Fifth Place Overall at the Global Conference for Educational Robotics (GCER) in 2019.</p>
+	<p>We push to this GitHub repository very frequently. We utilize <a href="https://travis-ci.com/">Travis CI</a> for <a href="https://en.wikipedia.org/wiki/Continuous_integration">continuous integration</a> to improve our code quality.</p>
 	<h2 id="authors">Authors</h2>
-	<p>Our code is written in Python 2 by Jaxon Lee, Lucas F., Tristan U., James Espericueta, Jawad Hanif, Emmet G., Xavier Y., Oliver V., Mortimer S., Michael M., Jesse Abinsay, and Axel Carmona.</p>
-	<h2 id="youtube-videos">YouTube Videos</h2>
-	<h3 id="a-playlist-of-our-gcer-run-can-be-found-here-">A playlist of our GCER run can be found here:</h3>
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLHr7k6PYIhe8yl8XwFye5FfPcTaZi4kAM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<p>Our code is written in Python 2 & 3 by Jaxon Lee, Lucas F., Tristan U., James Espericueta, Jawad Hanif, Emmet G., Xavier Y., Oliver V., Mortimer S., Michael M., Jesse Abinsay, and Axel Carmona.</p>
 
-	<h2 id="robots">Robots</h2>
-	<p><a href="https://github.com/rockvillerobotics/Incredibots2019"><img src="assets/images/legobot_and_roomba.jpg" alt="Robots Together" width="900"></a></p>
-
-
-	<h2 id="builds">Builds</h2>
-	<h3 id="legobot-build">Legobot Build</h3>
-	<p><a href="https://github.com/rockvillerobotics/Incredibots2019/tree/master/Legobot"><img src="assets/images/legobot_focus.jpg" alt="Legobot" width="900"></a></p>
-	<h3 id="roomba-build">Roomba Build</h3>
-	<p><a href="https://github.com/rockvillerobotics/Incredibots2019/tree/master/Roomba"><img src="assets/images/roomba_focus.jpg" alt="Roomba" width="600"></a></p>
 	<h2 id="sponsors">Sponsors</h2>
-
 	<p><strong>Thank you <a href="https://newwave-foundation.org">NewWave Foundation</a> for supporting us!</strong></p>
 
 	<h2 id="artist-credits">Artist Credits</h2>
@@ -47,6 +54,7 @@
 <footer>
 	<p>2020: The Incredibots</p>
 	<p>All of our code is Open Source under the GNU GPLv3, including the code for this website.</p>
+	<p>Disclaimer: Our website is under heavy renovation at the moment. Please excuse the mess.</p>
 </footer>
 
 </html>
