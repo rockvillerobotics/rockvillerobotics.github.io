@@ -2,22 +2,38 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
 <link rel="manifest" href="assets/images/site.webmanifest">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 </head>
 
-<div class="navbar">
-	<a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
-	<a href="https://github.com/RockvilleRobotics/Incredibots2020/"><i class="fa fa-fw fa-code"></i> Code</a>
-	<a href="documentation"><i class="fa fa-fw fa-folder-open"></i> Documentation</a>
-	<a href="builds"><i class="fa fa-fw fa-car"></i> Builds</a>
-	<a href="videos"><i class="fa fa-fw fa-youtube-square"></i> Videos</a>
-</div>
+<!--Navigation bar-->
+<div id="nav-placeholder"></div>
+<script>
+$(function(){
+  $("#nav-placeholder").load("nav.html");
+});
+</script>
+<!--end of Navigation bar-->
+
+<script>
+// Add active class to the current button (highlight it)
+var header = document.getElementById("navbar");
+var btns = header.getElementsByClassName("button");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  if (current.length > 0) {
+    current[0].className = current[0].className.replace(" active", "");
+  }
+  this.className += " active";
+  });
+}
+</script>
 
 <logo>
 <p><img src="assets/images/club_logo.png" alt="Club Logo" width="300"></p>
@@ -37,17 +53,7 @@
 	<h3 id="a-playlist-of-our-gcer-run-can-be-found-here-">A playlist of our GCER run can be found here:</h3>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLHr7k6PYIhe8yl8XwFye5FfPcTaZi4kAM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-	<h2 id="robots">Robots</h2>
-	<p><a href="https://github.com/rockvillerobotics/Incredibots2019"><img src="assets/images/legobot_and_roomba.jpg" alt="Robots Together" width="900"></a></p>
-
-
-	<h2 id="builds">Builds</h2>
-	<h3 id="legobot-build">Legobot Build</h3>
-	<p><a href="https://github.com/rockvillerobotics/Incredibots2019/tree/master/Legobot"><img src="assets/images/legobot_focus.jpg" alt="Legobot" width="900"></a></p>
-	<h3 id="roomba-build">Roomba Build</h3>
-	<p><a href="https://github.com/rockvillerobotics/Incredibots2019/tree/master/Roomba"><img src="assets/images/roomba_focus.jpg" alt="Roomba" width="600"></a></p>
 	<h2 id="sponsors">Sponsors</h2>
-
 	<p><strong>Thank you <a href="https://newwave-foundation.org">NewWave Foundation</a> for supporting us!</strong></p>
 
 	<h2 id="artist-credits">Artist Credits</h2>
