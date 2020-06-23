@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="utf-8" />
+<title></title>
 <link rel="stylesheet" type="text/css" href="style.css">
-<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
@@ -11,29 +12,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<!--Navigation bar-->
-<div id="nav-placeholder"></div>
-<script>
-$(function(){
-  $("#nav-placeholder").load("nav.html");
-});
-</script>
-<!--end of Navigation bar-->
-
-<script>
-// Add active class to the current button (highlight it)
-var header = document.getElementById("navbar");
-var btns = header.getElementsByClassName("button");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-  var current = document.getElementsByClassName("active");
-  if (current.length > 0) {
-    current[0].className = current[0].className.replace(" active", "");
-  }
-  this.className += " active";
-  });
-}
-</script>
+<div id="main-bar"></div>
+<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!--add this line to generate the nav bar-->
+<script src="scripts/navbar.js?id=index" id="navbar"></script>
 
 <logo>
 <p><img src="assets/images/club_logo.png" alt="Club Logo" width="300"></p>
