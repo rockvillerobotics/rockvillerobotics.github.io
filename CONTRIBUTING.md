@@ -11,7 +11,7 @@ $ git clone https://github.com/rockvillerobotics/rockvillerobotics.github.io.git
 ## :rocket: Contribution Guide
 Let's say you want to add a new feature to the code. Here are the steps you would follow (assuming you use `git` from the command line):
 
-1. Make a [GitHub issue](https://github.com/rockvillerobotics/rockvillerobotics.github.io.git/issues) describing the feature. Write enough info so that someone else could complete the task just by reading through your description.
+1. Make a [GitHub issue](https://github.com/rockvillerobotics/rockvillerobotics.github.io/issues) describing the feature. Write enough info so that someone else could complete the task just by reading through your description.
 2. In terminal, navigate to your local `rockvillerobotics.github.io` folder and run
 ```bash
 $ git checkout master # Switch branches to `master` (if you're not already there)
