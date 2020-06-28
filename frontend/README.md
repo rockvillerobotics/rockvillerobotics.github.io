@@ -7,7 +7,7 @@ The project is broken up as follows:
 
 - `*.html`: HTML files for the home page
 - `assets/`: Stores all media for the project (e.g., images, fonts, CSS)
-- `scripts`: Mostly JavaScript code
+- `scripts/`: Mostly JavaScript code
 
 ## :rocket: Quick Start
 Simply open any of the `*.html` files in a web browser to see what they look like :smile:
