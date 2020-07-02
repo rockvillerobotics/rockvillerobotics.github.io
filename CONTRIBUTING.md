@@ -26,7 +26,10 @@ or (equivalently)
 ```bash
 $ git checkout -b home-page # Create a new branch called `home-page` and check it out
 ```
-4. Make the feature!!!
+4. Make the feature!!! Generate the webpages locally with
+```bash
+bundle exec jekyll serve
+```
 5. Once the feature is ready, it's time to make your code official. First you have to **stage** your code using `git add` (which tells git which file changes you want to include in your code snapshot), then you `git commit` your changes (to save/take the snapshot of the files you just staged):
 ```bash
 $ git add FILE_YOU_EDITED ANOTHER_FILE_YOU_EDITED
